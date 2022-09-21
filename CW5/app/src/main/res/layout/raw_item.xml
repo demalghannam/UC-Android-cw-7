@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="71dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="TextView"
+        android:textColor="#F60B0B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewtype"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="19dp"
+        android:text="TextView"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="39dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@drawable/ic_baseline_delete_outline_24" />
+</RelativeLayout>
